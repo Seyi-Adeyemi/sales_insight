@@ -4,7 +4,7 @@
 This project analysed sales, customer behavior, product returns, shipping fees, and product performance. Using data-driven insights, the analysis identified key drivers of revenue, returns, and customer engagement, enabling actionable recommendations to improve business performance and operational efficiency.
 
 ## Project Overview
-This project analyzes sales, returns, shipping, and customer behavior to provide actionable business recommendations.
+This project analyses sales, returns, shipping, and customer behavior to provide actionable business recommendations.
 
 ## Key Questions
 - Total Revenue: How much revenue did we generate in total, and how has revenue changed month-to-month?
@@ -25,19 +25,23 @@ This project analyzes sales, returns, shipping, and customer behavior to provide
 
 #### Checking for null values
 ![Nullvalues](docs/Screenshot 2025-12-08 154909.png)
+Null values replaced automatically with NaN
 
 #### Checking for duplicates
 ![Duplicates](docs/Screenshot 2025-12-08 155422.png)
+Zero duplicates
 
+### Question 1: Total Revenue: How much revenue did we generate in total, and how has revenue changed month-to-month?
 
+![TotalRevenue](docs/Screenshot 2025-12-08 160539.png)
 
+### Question 2: Top products by revenue and by units sold: Which products generate the most revenue, and which sell the most units?
+![ProductsbyUnits](docs/Screenshot 2025-12-08 160903.png)
+![ProductsbyUnits](docs/Screenshot 2025-12-08 161030.png)
+Most number of products sold is Monitor - 503
 
-## Dashboards
-Visual dashboards created using [tools, e.g., Tableau, Power BI, Plotly, or Matplotlib] include:
-- Returns by product and category
-- Revenue by region and customer segment
-- Age and gender purchase trends
-- Shipping fee and return analysis
+![ProductsbyRevenue](docs/Screenshot 2025-12-08 163127.png)
+We can see that the product with the highest revenue is Laptop (£696,000), even though the units sold was less than Monitor. This is very interesting! Let's find out why the revenue on Monitor is not commensurate with the total units sold. The unit price for laptop is £1,500 per piece, while the unit price for monitor per piece is £300. This explains the difference!
 
 ## Portfolio Skills Demonstrated
 - Data Cleaning & Preprocessing
