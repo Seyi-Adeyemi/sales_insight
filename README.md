@@ -32,16 +32,29 @@ Null values replaced automatically with NaN
 Zero duplicates
 
 ### Question 1: Total Revenue: How much revenue did we generate in total, and how has revenue changed month-to-month?
-
+![TotalRevenue](docs/Screenshot 2025-12-08 163835.png)
+Total Revenue is £1,364,600
 ![TotalRevenue](docs/Screenshot 2025-12-08 160539.png)
 
 ### Question 2: Top products by revenue and by units sold: Which products generate the most revenue, and which sell the most units?
 ![ProductsbyUnits](docs/Screenshot 2025-12-08 160903.png)
+
 ![ProductsbyUnits](docs/Screenshot 2025-12-08 161030.png)
-Most number of products sold is Monitor - 503
+Most number of products sold is Monitor - 503 units
 
 ![ProductsbyRevenue](docs/Screenshot 2025-12-08 163127.png)
-We can see that the product with the highest revenue is Laptop (£696,000), even though the units sold was less than Monitor. This is very interesting! Let's find out why the revenue on Monitor is not commensurate with the total units sold. The unit price for laptop is £1,500 per piece, while the unit price for monitor per piece is £300. This explains the difference!
+We can see that the product with the highest revenue is Laptop (£696,000), even though the units sold was less than Monitor. This is very interesting! Let's find out why the revenue on Monitor is not commensurate with the total units sold. 
+
+The unit price for laptop is £1,500 per piece, while the unit price for monitor per piece is £300. This explains the difference!
+
+### Question 3: Returns by region: Which regions have the highest return rates and what is the financial impact of those returns?
+First, let's see the returns by region!
+
+![ReturnsbyRegion](docs/Screenshot 2025-12-08 164145.png)
+
+Next, let's see the return rate by region
+
+![ReturnRate](docs/Screenshot 2025-12-08 164822.png)
 
 ## Portfolio Skills Demonstrated
 - Data Cleaning & Preprocessing
