@@ -20,6 +20,7 @@ This project analyses sales, returns, shipping, and customer behavior to provide
 First, let's import our libraries and the dataset
 ![Libraries](docs/Screenshot 2025-12-15 231616.png)
 
+Next, let's explore the data, shall we?
 ![DataExploration](docs/Screenshot 2025-12-08 151658.png)
 
 #### Exploratory Data Analysis
