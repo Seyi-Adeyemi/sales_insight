@@ -1,4 +1,4 @@
-# Sales & Customer Insights Project
+# Sales & Customer Insights Project- Python
 
 ## Executive Summary
 This project analysed sales, customer behavior, product returns, shipping fees, and product performance. Using data-driven insights, the analysis identified key drivers of revenue, returns, and customer engagement, enabling actionable recommendations to improve business performance and operational efficiency.
@@ -56,7 +56,7 @@ Next, let's see the return rate by region
 
 ![ReturnRate](docs/Screenshot 2025-12-08 164822.png)
 
-The region with the highest returns and return rate is the West Region -38.62%
+The region with the highest returns and return rate is the West Region at 38.62%
 
 ### Question 4: Average spending / Average Order Value (AOV): What is the average order value and how does it vary by region and gender
 First, let's find the overall AOV
@@ -99,6 +99,8 @@ There's clearly a positive correlation betweeen the number of orders and CLV; Cu
 
 Now, let's visualise the top 10 most returned products
 ![ProductsReturn](docs/Screenshot 2025-12-15 090043.png)
+
+The product with the highest return rate is Headphones at 33.33%
 
 ### QUESTION 8: Shipping fee impact on returns (correlation check): Do orders with higher/lower shipping fees have different return rates?
 
