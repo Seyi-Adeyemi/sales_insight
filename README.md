@@ -79,7 +79,27 @@ Next, let's visualise the top customers by CLV
 Now, let's see the relationship between the number of orders and the revenue
 ![Correlation](docs/Screenshot 2025-12-15 084240.png)
 
-Theres clearly a positive correlation betweeen the number of orders and CLV!
+There's clearly a positive correlation betweeen the number of orders and CLV; Customers who buy more often generate more total revenue over time.
+
+### Question 6: Product return hotspots (products with high return rates): Which products have unusually high return rates and deserve investigation?
+![ReturnHotspots](docs/Screenshot 2025-12-15 085859.png)
+
+Now, let's visualise the top 10 most returned products
+![ProductsReturn](docs/Screenshot 2025-12-15 090043.png)
+
+### qUESTION 7: Shipping fee impact on returns (correlation check): Do orders with higher/lower shipping fees have different return rates?
+
+First, let's find the correlation between shipping fee and returned orders
+![Shipping Fee Impact](docs/Screenshot 2025-12-15 090332.png)
+Correlation between Shipping Fee and Returns: -0.07661235763648058, which suggests that higher shipping fees are very weakly associated with slightly fewer returns, but the effect is negligible.
+
+Next, Let's compare return rates among shipping fee ranges. To do this, we need to create shipping fee ranges/buckets. Our max shipping fee is £19.98
+![ShippingFeenReturn](docs/Screenshot 2025-12-15 090720.png)
+
+![ShippingFeeImpact](docs/Screenshot 2025-12-15 090828.png)
+
+There's literally no correlation between shipping fee and return rate
+
 
 
 
