@@ -17,6 +17,8 @@ This project analyses sales, returns, shipping, and customer behavior to provide
 - Shipping fee impact on returns (correlation check): Do orders with higher/lower shipping fees have different return rates?
 
 ### Data Exploration:
+First, let's import our libraries and the dataset
+![Libraries](docs/Screenshot 2025-12-15 231616.png)
 
 ![DataExploration](docs/Screenshot 2025-12-08 151658.png)
 
