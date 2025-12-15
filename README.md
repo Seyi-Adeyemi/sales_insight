@@ -56,6 +56,33 @@ Next, let's see the return rate by region
 
 ![ReturnRate](docs/Screenshot 2025-12-08 164822.png)
 
+### Question 4: Average spending / Average Order Value (AOV): What is the average order value and how does it vary by region and gender
+First, let's find the overall AOV
+![AOV](docs/Screenshot 2025-12-15 083014.png)
+
+Now let's see the most products ordered by both genders
+![AOV](docs/Screenshot 2025-12-15 083032.png)
+
+Now, let's look at the top products ordered by each gender
+![AOV](docs/Screenshot 2025-12-15 083059.png)
+
+Next, let's visualise this to see the top 5 products returned by both gender
+![AOV](docs/Screenshot 2025-12-15 083337.png)
+
+### Question 5:  Top customers (lifetime value / repeat purchase): Who are the top customers by lifetime revenue and how many repeat purchases do they make?
+First, let's calcu;late total revenue and the number of orders by customer
+![CLV](docs/Screenshot 2025-12-15 084041.png)
+
+Next, let's visualise the top customers by CLV
+![TopCustomers](docs/Screenshot 2025-12-15 084159.png)
+
+Now, let's see the relationship between the number of orders and the revenue
+![Correlation](docs/Screenshot 2025-12-15 084240.png)
+
+Theres clearly a positive correlation betweeen the number of orders and CLV!
+
+
+
 ## Portfolio Skills Demonstrated
 - Data Cleaning & Preprocessing
 - Exploratory Data Analysis (EDA)
